@@ -1,0 +1,48 @@
+{
+    "name": "ohauthcat/ohauthcat-php",
+    "description": "OhAuthCat server SDK: enterprise SSO and SCIM directory sync",
+    "keywords": [
+        "ohauthcat",
+        "sso",
+        "saml",
+        "oidc",
+        "scim"
+    ],
+    "type": "library",
+    "license": "proprietary",
+    "homepage": "https://ohauthcat.com",
+    "support": {
+        "docs": "https://docs.ohauthcat.com",
+        "source": "https://github.com/oh-auth-cat/sdk-php"
+    },
+    "authors": [
+        {
+            "name": "OhAuthCat",
+            "homepage": "https://ohauthcat.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.2",
+        "ext-json": "*"
+    },
+    "suggest": {
+        "ext-curl": "Used by the default transport when available; PHP streams are the fallback",
+        "psr/http-client": "Use any PSR-18 client through OhAuthCat\\Psr18Transport",
+        "psr/http-factory": "Request and stream factories for OhAuthCat\\Psr18Transport",
+        "guzzlehttp/guzzle": "A PSR-18 client for OhAuthCat\\Psr18Transport (MIT)"
+    },
+    "autoload": {
+        "psr-4": {
+            "OhAuthCat\\": "src/"
+        },
+        "classmap": [
+            "src/Models/"
+        ]
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "require-dev": {
+        "guzzlehttp/guzzle": "^7.9"
+    }
+}

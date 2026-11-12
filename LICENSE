@@ -1,0 +1,35 @@
+OhAuthCat SDK and CLI Licence
+
+Copyright (c) 2026 Generic Technologies Private Limited. All rights reserved.
+OhAuthCat is a product of Generic Technologies Private Limited.
+
+This software development kit (the "Software") is licensed, not sold, under
+the OhAuthCat SDK and CLI Licence, version 1.0, published at
+https://ohauthcat.com/legal/sdk-licence (the "Licence"). By downloading,
+installing or using the Software you accept the Licence. The summary below is
+for convenience; if it differs from the Licence, the Licence prevails.
+
+While you have an active agreement with OhAuthCat for its hosted service, you
+may use, copy, read, modify and make derivative works of the Software, and
+distribute it, modified or not, only as an integrated part of your own
+application, solely to access and use the OhAuthCat service.
+
+You must not:
+
+1. use the Software, or any modified version or part of it, with any service
+   other than the OhAuthCat service;
+2. distribute, publish or make the Software, or any modified version or part
+   of it, available on its own, as a standalone library, package, SDK, fork or
+   tool;
+3. remove or alter any copyright notice, this file or THIRD_PARTY_LICENSES;
+4. use the Software or its source code to build or help build a product or
+   service that competes with the OhAuthCat service; or
+5. license or distribute the Software under terms that would require it to be
+   disclosed or licensed as open source or distributed free of charge.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, TO THE EXTENT THE LAW ALLOWS. LIABILITY IS LIMITED AS SET OUT IN THE
+LICENCE.
+
+Third-party components distributed with the Software are listed in
+THIRD_PARTY_LICENSES and are governed by their own licences.

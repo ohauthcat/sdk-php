@@ -1,0 +1,12 @@
+The OhAuthCat PHP SDK uses only PHP itself and its bundled extensions (json,
+hash, openssl or random). It requires no third-party Composer packages at
+runtime.
+
+Optional, chosen and installed by the application (never required):
+psr/http-client, psr/http-factory (MIT) for OhAuthCat\Psr18Transport, and a
+PSR-18 client such as guzzlehttp/guzzle (MIT).
+
+Development-only (require-dev, never shipped as a dependency): guzzlehttp/guzzle,
+guzzlehttp/promises, guzzlehttp/psr7, psr/http-client, psr/http-factory,
+psr/http-message, ralouphie/getallheaders, symfony/deprecation-contracts,
+symfony/polyfill-php80 (all MIT). Composer (MIT) is a build tool.
